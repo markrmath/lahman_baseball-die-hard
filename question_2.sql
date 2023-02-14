@@ -9,3 +9,5 @@ FROM people
 WHERE height = 
 	(SELECT MIN(height)
 	FROM people);
+	
+--ANSWER: The shortest player is Eddie Gaedel at 43 inches tall. He played in only 1 game for the St. Louis Browns

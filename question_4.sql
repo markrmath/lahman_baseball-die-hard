@@ -18,10 +18,10 @@ WITH position AS (SELECT  playerid,
 						WHEN pos = 'P' OR pos = 'C' THEN 'Battery' END AS position
 				FROM fielding)
 SELECT position,
-	COUNT(f.po) AS po_per_position
+	SUM(f.po) AS po_per_position
 FROM position
 	INNER JOIN fielding As f
 	USING(playerid)
 WHERE f.yearid = 2016
 GROUP BY position;
---ANSWER: There were 5,482 putouts in the battery position, 8,232 putouts in the infield position and 2,896 in the outfield position
+--ANSWER: There were 317472 putouts in the battery position, 689431 putouts in the infield position and 285322 in the outfield position

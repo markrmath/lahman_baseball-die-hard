@@ -4,7 +4,7 @@
 
 ### Use SQL queries to find answers to the *Initial Questions*. If time permits, choose one (or more) of the *Open-Ended Questions*. Toward the end of the bootcamp, we will revisit this data if time allows to combine SQL, Excel Power Pivot, and/or Python to answer more of the *Open-Ended Questions*.
 
-Markus's note: This was part of a team project. I answered questions 1, 5, 6, 7 and 13. Those questions are included below as well as the sql script files.
+Markus's note: This was part of a team project. I answered questions 1, 5, 6, 7 and 13. Those questions are included below as well as the sql script files. The powerpoint presentation was designed and assembled by William Prunty.
 
 Content warning: Mariners fans might find some of the answers traumatic.
 
